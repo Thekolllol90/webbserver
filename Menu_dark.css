@@ -1,0 +1,32 @@
+*{
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+        }
+        #top{
+            background-color: black;
+            height: 105px;
+            padding: 10px;
+        }
+        #menu{
+            width: 75%;
+            height: 100px;
+            background-color: darkred;
+            margin: auto;
+            display: flex;
+            justify-content: space-around;
+        }
+        #menu > a{
+            background-color: darkred;
+            text-decoration: none;
+            color: darkgray;
+            font-size: 40px;
+            float: left;
+            margin-top: 20px;
+        }
+#boi{
+    position: absolute;
+    background-color: black;
+    top: 100px;
+    left: 10px;
+}

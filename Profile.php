@@ -46,5 +46,15 @@ include("db.php");
             </div>
         <a href="Password.php"><div>Change password</div></a>
     </div>
+    <form action="post">
+    <input type="submit" name="light" value="dark theme">
+    <input type="submit" name="dark" value="light theme">
+    </form>
+    <?php
+    $dark = $_POST['dark theme'];
+    $light = $_POST['light theme'];
+    $_SESSION["dark"] = $dark;
+    $_SESSION["light"] = $light;
+    ?>
 </body>
 </html>

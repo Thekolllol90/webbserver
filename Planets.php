@@ -18,8 +18,22 @@ include("db.php");
     <?php
     include("Menu.php");
     ?>
+      
+    <div id="sort">
+      <form method="GET" action="">
+       <input type="submit" name="order" value="orbittime">
+       <input type="submit" name="order" value="moons">
+       <input type="submit" name="order" value="planetname">
+      </form>
+    </div>
         <?php
-        $query = "SELECT * FROM planet";
+        $order = "";
+        if(isset($_GET['order'])){
+                $order = "ORDER BY " . $_GET['order'] . " DESC";
+                $_SESSION['order'] = $_GET['order'];
+        }
+        
+        $query = "SELECT * FROM planet $order";
         $result = mysqli_query($dbc,$query);
         while($row = mysqli_fetch_assoc($result)){
             $pname = $row['planetname'];
