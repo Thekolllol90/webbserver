@@ -1,0 +1,53 @@
+*{
+            margin: 0px;
+            padding: 0px;
+            background-color: darkgray;
+        }
+        #container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #box{
+            width: 500px;
+            height: 500px;
+            background-color:rgba(139,0,0,0.5);
+            margin-top: 100px;
+            text-align: center;
+        }
+        #pic{
+            margin-top: 60px;
+        }
+        .text{
+            margin: 20px;
+            margin-top: 30px;
+        }
+        .text > div{
+            background-color: black;
+        }
+        form{
+            background-color:rgba(139,0,0,0.6); 
+            width: 200px;
+            height: 210px;
+            margin-left: 150px;
+            border: solid black 5px;
+            margin-top: 50px;
+        }
+        #lol{
+            width: 40px;
+            margin-left: 80px;
+        }
+        .text2{
+             margin: 10px;
+        }
+        .text2 > div{
+            background-color: black;
+        }
+        #form2{
+            background-color:rgba(139,0,0,0.6); 
+            width: 200px;
+            height: 320px;
+            margin-left: 150px;
+            border: solid black 5px;
+            margin-top: 10px;
+        }

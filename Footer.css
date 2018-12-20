@@ -1,0 +1,15 @@
+*{
+            margin: 0;
+            padding: 0;
+        }
+        #bottom{
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            background-color: red;
+            height: 100px;
+            width: 100%;
+            text-align: center;
+            font-size: 40px;
+            
+        }

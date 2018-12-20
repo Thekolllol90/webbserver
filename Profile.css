@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    background-color: red;
+    margin: auto;
+    margin-top: 50px;
+    width: 1000px;
+    height: 500px;
+    border: solid black 5px;
+}
+#pic{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 30px;
+    border: solid black 5px;
+}
+.skr{
+    position: absolute;
+    background-color: red;
+}
