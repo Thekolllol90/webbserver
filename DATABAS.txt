@@ -1,6 +1,7 @@
 DROP DATABASE web;
 CREATE DATABASE web;
 USE web;
+
 CREATE TABLE user (id INT(8) PRIMARY KEY AUTO_INCREMENT, username varchar(16) UNIQUE, fullname VARCHAR(32), age INT(4), password VARCHAR(32), email VARCHAR(64) UNIQUE);
 CREATE TABLE planet (id INT(8) PRIMARY KEY AUTO_INCREMENT, planetname varchar(32) UNIQUE, orbittime INT(8), gravity FLOAT(16,8), distance INT(16), moons INT(8), mass FLOAT(32));
 
@@ -13,3 +14,5 @@ INSERT INTO planet (planetname, orbittime, gravity, distance, moons, mass) VALUE
 INSERT INTO user (username, fullname, age, password, email) VALUES("admin","admin",0,"admin","admin@admin.admin");
 
 INSERT INTO planet (planetname, orbittime, gravity, distance, moons, mass) VALUES("Saturn", 10585, 10.44, 1434, 65, 5.683E26);
+
+INSERT INTO planet (planetname, orbittime, gravity, distance, moons, mass) VALUES("Mars", , , , , );

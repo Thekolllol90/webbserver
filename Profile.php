@@ -44,7 +44,7 @@ include("db.php");
                 <div class="email">You'r connected email is: <?php echo $email; ?></div>
                 <div class="age">You'r age is: <?php echo $age; ?></div>
             </div>
-        <div></div>
+        <a href="Password.php"><div>Change password</div></a>
     </div>
 </body>
 </html>
