@@ -41,8 +41,6 @@ include("db.php");
             <?php
         }
         ?>
-            <?php
-    include("Footer.php");
-    ?>
+           <div id="boi"></div>
 </body>
 </html>

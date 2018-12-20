@@ -15,4 +15,6 @@ INSERT INTO user (username, fullname, age, password, email) VALUES("admin","admi
 
 INSERT INTO planet (planetname, orbittime, gravity, distance, moons, mass) VALUES("Saturn", 10585, 10.44, 1434, 65, 5.683E26);
 
-INSERT INTO planet (planetname, orbittime, gravity, distance, moons, mass) VALUES("Mars", , , , , );
+INSERT INTO planet (planetname, orbittime, gravity, distance, moons, mass) VALUES("Mars", 687, 3.711, 227, 2, 6.39E23);
+
+INSERT INTO planet (planetname, orbittime, gravity, distance, moons, mass) VALUES("Venus", 225, 8.87, 108, 0, 4.867E24);
